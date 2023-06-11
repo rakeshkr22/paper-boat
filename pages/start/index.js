@@ -1,14 +1,14 @@
 import Head from "next/head";
-import Header from "../components/Header";
-import Main from "../components/Main";
-import Footer from "../components/Footer";
+import Header from "../../components/Header";
+import Start from "../../components/Start";
+import Footer from "../../components/Footer";
 import { NextSeo } from "next-seo";
 
-export default function Home() {
+export default function StartHome() {
   return (
     <div className="text-black">
       <NextSeo
-        title="Home: PaperBoat"
+        title="Start: PaperBoat"
         description="Welcome to PaperBoat homepage."
         canonical="https://nine4-2.vercel.app/"
         openGraph={{
@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <Main />
+      <Start />
       <Footer />
     </div>
   );

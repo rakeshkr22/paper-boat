@@ -1,0 +1,50 @@
+[
+{
+	"id" : "1",
+	"name" : "Malayala Manorama",
+	"localName" : "Malayala Manorama",
+	"list" : [
+		{
+			"name" : "News Paper",
+			"price" : "10",
+			"perMonth" : "350"
+		},
+		{
+			"name" : "Balarama",
+			"price" : "25"
+		}
+	]
+},
+{
+	"id" : "2",
+	"name" : "Mathrubhumi",
+	"localName" : "Mathrubhumi",
+	"list" : [
+		{
+			"name" : "News Paper",
+			"price" : "10",
+			"perMonth" : "350"
+		},
+		{
+			"name" : "Balabhumi",
+			"price" : "25"
+		}
+	]
+},
+{
+	"id" : "3",
+	"name" : "Deshabhimani",
+	"localName" : "Deshabhimani",
+	"list" : [
+		{
+			"name" : "News Paper",
+			"price" : "10",
+			"perMonth" : "350"
+		},
+		{
+			"name" : "Weekly",
+			"price" : "25"
+		}
+	]
+}
+]

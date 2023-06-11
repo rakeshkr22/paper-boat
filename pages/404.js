@@ -15,7 +15,7 @@ export default function Contact() {
         }}
       />
       <Head>
-        <title>nine4</title>
+        <title>PaperBoat</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
