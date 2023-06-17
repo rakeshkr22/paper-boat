@@ -1,7 +1,7 @@
 FROM node:14
 WORKDIR /app
 COPY package*.json ./
-RUN npm ci
+#RUN npm ci
 COPY . .
 RUN npm run build
 RUN npm install -g next
