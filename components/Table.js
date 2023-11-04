@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+
+
 const Table = ({ data }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage] = useState(5);
@@ -25,6 +27,11 @@ const Table = ({ data }) => {
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentData = data.slice(indexOfFirstItem, indexOfLastItem);
+//  const [currentData, setCurrentData] = useState(
+//    data.slice(indexOfFirstItem, indexOfLastItem)
+//  );
+
+//setCurrentData(data.slice(indexOfFirstItem, indexOfLastItem));
 
   // Sort data
   if (sortConfig.key) {
@@ -47,15 +54,11 @@ const Table = ({ data }) => {
       <td className="py-2">₹{item.price}</td>
       <td className="py-2">{item.quantity}</td>
       <td className="py-2">₹{item.totalPrice}</td>
-      <td class="text-center py-2">
-            <button class="text-red-500 hover:text-red-600">
-              <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-              </svg>
-            </button>
-      </td>
+      
     </tr>
   ));
+
+ 
 
   // Calculate total pages
   const totalPages = Math.ceil(data.length / itemsPerPage);
@@ -77,7 +80,7 @@ const Table = ({ data }) => {
   }
 
   return (
-    <div className="flex mx-auto mt-8 mb-8">
+    <div className="mx-auto mt-8 mb-8">
       <table className="min-w-full">
         <thead>
           <tr>
@@ -112,7 +115,7 @@ const Table = ({ data }) => {
         <tbody>{renderTableRows}</tbody>
       </table>
 
-    { /*
+    
       <div className="flex justify-between mt-4">
         <div>
           <button
@@ -134,7 +137,7 @@ const Table = ({ data }) => {
           <span className="text-sm leading-5 Avenir text-black mr-2">Page</span>
           {paginationButtons}
         </div>
-  </div> */}
+  </div> 
 
       
 
