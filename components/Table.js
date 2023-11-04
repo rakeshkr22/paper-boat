@@ -80,9 +80,10 @@ const Table = ({ data }) => {
   }
 
   return (
-    <div className="mx-auto mt-8 mb-8">
-      <table className="min-w-full">
-        <thead>
+    <div className="">
+    <div className="flex lg:mt-8 lg:mb-8">
+      <table className="max-w-full">
+        <thead className="">
           <tr>
             <th className="text-left font-semibold w-40">
               <button className="sortable" onClick={() => handleSort('publisher')}>
@@ -109,14 +110,18 @@ const Table = ({ data }) => {
                 Total Price
               </button>
             </th>
-            <th class="text-right w-10"></th>
           </tr>
         </thead>
         <tbody>{renderTableRows}</tbody>
       </table>
 
     
-      <div className="flex justify-between mt-4">
+      
+
+
+    </div>  
+
+    <div className="flex justify-between mt-4">
         <div>
           <button
             className="Avenir text-black px-4 py-2 text-sm font-medium bg-white border border-gray-300 rounded-md hover:bg-gray-100"
@@ -138,8 +143,6 @@ const Table = ({ data }) => {
           {paginationButtons}
         </div>
   </div> 
-
-      
 
     </div>
   );

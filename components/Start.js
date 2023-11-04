@@ -117,7 +117,7 @@ export default function Start() {
     </div>
     <input
   type="text"
-  className="block w-40 px-4 py-3 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+  className="container lg:mx-0 mx-auto block w-40 px-4 py-3 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500"
   value={inputValue}
   onChange={handleInputChange}
   placeholder="Enter count"
@@ -189,7 +189,7 @@ export default function Start() {
 
 
         </div>
-        <div className="xl:mr-44 sm:mr-0 sm:mb-28 mb-0 lg:mb-0 mr-48 md:pl-10 md:pr-10">
+        <div className="xl:mr-44 sm:mr-0 sm:mb-28 mb-0 lg:mb-0  md:pl-10 md:pr-10">
           
         { tableData.length > 0  && <div>
           <Table data={tableData} /> 
