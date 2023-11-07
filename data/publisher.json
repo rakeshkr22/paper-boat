@@ -7,11 +7,132 @@
 		{
 			"name" : "News Paper",
 			"price" : "10",
-			"perMonth" : "350"
+			"perMonth" : "270"
 		},
 		{
 			"name" : "Balarama",
-			"price" : "25"
+			"price" : "25",
+			"perMonth" : "999"
+		},
+		{
+			"name" : "Thozilveedhi",
+			"price" : "25",
+			"perMonth" : "550"
+		},
+		{
+			"name" : "Bhashaposhini",
+			"price" : "25",
+			"perMonth" : "290"
+		},
+		{
+			"name" : "Karshakasree",
+			"price" : "25",
+			"perMonth" : "190"
+		},
+		{
+			"name" : "Fasttrack",
+			"price" : "25",
+			"perMonth" : "280"
+		},
+		{
+			"name" : "Sampadyam",
+			"price" : "25",
+			"perMonth" : "280"
+		},
+		{
+			"name" : "The Week",
+			"price" : "25",
+			"perMonth" : "1600"
+		},
+		{
+			"name" : "Livingetc",
+			"price" : "25",
+			"perMonth" : "1350"
+		},
+		{
+			"name" : "Magic Pot",
+			"price" : "25",
+			"perMonth" : "1200"
+		},
+		{
+			"name" : "Kalikkudukka",
+			"price" : "25",
+			"perMonth" : "999"
+		},
+		{
+			"name" : "Veedu",
+			"price" : "25",
+			"perMonth" : "600"
+		},
+		{
+			"name" : "Vanitha Pachakam",
+			"price" : "25",
+			"perMonth" : "700"
+		},
+		{
+			"name" : "Manorama Traveller",
+			"price" : "25",
+			"perMonth" : "700"
+		},
+		{
+			"name" : "Balarama Digest",
+			"price" : "25",
+			"perMonth" : "600"
+		},
+		{
+			"name" : "Manorama Weekly",
+			"price" : "25",
+			"perMonth" : "650"
+		},
+		{
+			"name" : "Vanitha",
+			"price" : "25",
+			"perMonth" : "850"
+		},
+		{
+			"name" : "Arogyam",
+			"price" : "25",
+			"perMonth" : "375"
+		},
+		{
+			"name" : "Read and Colour",
+			"price" : "25",
+			"perMonth" : "270"
+		},
+		{
+			"name" : "Kadhayum Niravum",
+			"price" : "25",
+			"perMonth" : "270"
+		},
+		{
+			"name" : "Akkad Bakkad",
+			"price" : "25",
+			"perMonth" : "320"
+		},
+		{
+			"name" : "Balaram Amar Chitra Katha",
+			"price" : "25",
+			"perMonth" : "425"
+		},
+		{
+			"name" : "Tell Me Why",
+			"price" : "25",
+			"perMonth" : "425"
+		},
+		{
+			"name" : "National Geographic Kids",
+			"price" : "25",
+			"perMonth" : "550"
+		},
+		{
+			"name" : "Vanitha Hindi",
+			"price" : "25",
+			"perMonth" : "650"
+		},
+		{
+			"name" : "Watch Time India",
+			"price" : "25",
+			"perMonth" : "450"
 		}
 	]
 },
@@ -23,11 +144,62 @@
 		{
 			"name" : "News Paper",
 			"price" : "10",
-			"perMonth" : "350"
+			"perMonth" : "270"
 		},
 		{
 			"name" : "Balabhumi",
-			"price" : "25"
+			"price" : "25",
+			"perMonth" : "350"
+		},
+		{
+			"name" : "Mathrubhumi Illustrated Weekly",
+			"price" : "10",
+			"perMonth" : "350"
+		},
+		{
+			"name" : "Grihalakshmi",
+			"price" : "10",
+			"perMonth" : "350"
+		},
+		{
+			"name" : "Star & Style",
+			"price" : "10",
+			"perMonth" : "350"
+		},
+		{
+			"name" : "Thozhil Vartha",
+			"price" : "10",
+			"perMonth" : "350"
+		},
+		{
+			"name" : "Mathrubhumi Sports Masika",
+			"price" : "10",
+			"perMonth" : "350"
+		},
+		{
+			"name" : "Arogya Masika",
+			"price" : "10",
+			"perMonth" : "350"
+		},
+		{
+			"name" : "Mathrubhumi Yathra",
+			"price" : "10",
+			"perMonth" : "350"
+		},
+		{
+			"name" : "Mathrubhumi Minnaminni",
+			"price" : "10",
+			"perMonth" : "350"
+		},
+		{
+			"name" : "Chitra Kadha",
+			"price" : "10",
+			"perMonth" : "350"
+		},
+		{
+			"name" : "Mathrubhumi GK & Current Affairs",
+			"price" : "10",
+			"perMonth" : "350"
 		}
 	]
 },
@@ -39,10 +211,10 @@
 		{
 			"name" : "News Paper",
 			"price" : "10",
-			"perMonth" : "350"
+			"perMonth" : "270"
 		},
 		{
-			"name" : "Balabhumi",
+			"name" : "Deshabhimani Varika",
 			"price" : "25"
 		}
 	]
@@ -58,8 +230,34 @@
 			"perMonth" : "350"
 		},
 		{
-			"name" : "Balabhumi",
-			"price" : "25"
+			"name" : "Kerala Kaumudi Weekly",
+			"price" : "25",
+			"perMonth" : "350"
+		},
+		{
+			"name" : "Kerala Kaumudi Movies",
+			"price" : "25",
+			"perMonth" : "350"
+		},
+		{
+			"name" : "Ayurarogyam",
+			"price" : "25",
+			"perMonth" : "350"
+		},
+		{
+			"name" : "Fire Magazine",
+			"price" : "25",
+			"perMonth" : "350"
+		},
+		{
+			"name" : "Kalakaumudi",
+			"price" : "25",
+			"perMonth" : "350"
+		},
+		{
+			"name" : "Snehitha",
+			"price" : "25",
+			"perMonth" : "350"
 		}
 	]
 },
